@@ -2,9 +2,6 @@ import getpass
 import random
 import os
 
-def check(password):
-    return mdp == password
-
 def connection():
     for i in range(3):
         user = getpass.getpass("Enter your password: ")
