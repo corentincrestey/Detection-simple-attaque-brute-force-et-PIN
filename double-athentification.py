@@ -16,7 +16,6 @@ def input_masque(prompt=""):
             sys.stdout.write('*')
         sys.stdout.flush()
 
-
 def connection():
     for i in range(3):
         print("Enter your password:")
@@ -31,7 +30,6 @@ def connection():
             
     print("too many incorrect attempts. Access denied.")
     return False
-
 
 def code_pin():
     pin = random.randint(1000, 9999)
